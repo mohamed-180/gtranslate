@@ -2,8 +2,8 @@ Package: gtranslate
 Title: Translate between different languages
 Version: 0.0.0.9000
 Authors@R: 
-    person("Mohamed", "Al-Desouky", , "mohamed_d180@hotmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Mohamed", "El-Desouky", , "mohamed_d180@hotmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0007-1611-2276"))
 Description: The goal of gtranslate is to translate between different languages without any google api authentication which is painfull and you must pay for, gtranslate is free and lightweight.
 License: MIT + file LICENSE
 Encoding: UTF-8

@@ -3,7 +3,7 @@
 \docType{data}
 \name{lang_codes}
 \alias{lang_codes}
-\title{This list is the supported codes for language included in gtranslate}
+\title{List of language codes}
 \format{
 An object of class \code{list} of length 133.
 }
@@ -11,7 +11,7 @@ An object of class \code{list} of length 133.
 lang_codes
 }
 \description{
-This list is the supported codes for language included in gtranslate
+This is the list of supported codes for languages included in gtranslate.
 }
 \references{
 \url{https://cloud.google.com/translate/docs/languages}
