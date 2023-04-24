@@ -24,11 +24,6 @@ This is a basic example which shows you how to use the package:
 ``` r
 library(gtranslate)
 
-translate("﷽", from = "ar", to = "en")
-
-#[1] "In the name of God, Most Compassionate, Most Merciful"
-
-#--------------------------------------------------------------
 translate("How are you?", from = "auto", to = "ar")
 
 #[1] "كيف حالك؟"

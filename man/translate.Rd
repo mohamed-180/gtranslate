@@ -23,7 +23,6 @@ Translate between different languages
 }
 \examples{
 
-translate("﷽", from = "ar", to = "en")
 translate("How are you?", from = "auto", to = "ar")
 
 }
