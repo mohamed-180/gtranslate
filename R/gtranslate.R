@@ -1,14 +1,21 @@
-#' Title
+#' Translate between different languages
 #'
-#' @param text
-#' @param from
-#' @param to
-#' @param trim_str
+#' @param text (character) vector of text to translate
+#' @param from (character) abbreviation to the input language code eg: "en" for English, by default it is "auto" for auto-detecting the input language.
+#' @param to (character) abbreviation to the output language code.
+#' @param trim_str (logical) indicating whether to trim the string if it is exceeds 5000 characters.
 #'
-#' @return
+#' @import rvest
+#' @import httr
+#' @return (character) vector of translated input text.
 #' @export
 #'
 #' @examples
+#' translate("﷽", from = "ar", to = "en")
+
+#' translate("How are you?", from = "auto", to = "ar")
+#'
+
 translate <- function(text, from = "auto", to = "ar", trim_str = TRUE){
 
 

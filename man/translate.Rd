@@ -2,13 +2,27 @@
 % Please edit documentation in R/gtranslate.R
 \name{translate}
 \alias{translate}
-\title{Title}
+\title{Title Translate between different languages}
 \usage{
 translate(text, from = "auto", to = "ar", trim_str = TRUE)
 }
 \arguments{
-\item{trim_str}{}
+\item{text}{(character) vector of text to translate}
+
+\item{from}{(character) abbreviation to the input language code eg: "en" for English, by default it is "auto" for auto-detecting the input language.}
+
+\item{to}{(character) abbreviation to the output language code.}
+
+\item{trim_str}{(logical) indicating whether to trim the string if it is exceeds 5000 characters.}
+}
+\value{
+(character) vector of translated input text.
 }
 \description{
-Title
+Title Translate between different languages
+}
+\examples{
+translate("﷽", from = "ar", to = "en")
+translate("How are you?", from = "auto", to = "ar")
+
 }
