@@ -4,7 +4,7 @@
 
 <!-- badges: end -->
 
-The goal of **`gtranslate`** is to translate between different languages without any google api authentication which is painful and you must pay for, **`gtranslate`** is free and lightweight.
+The goal of **`gtranslate`** is to translate between different languages without any Google API authentication which is pain and you must pay for the key, **`gtranslate`** is free and lightweight.
 
 **`gtranslate`** is inspired by [`deep-translator`](https://github.com/nidhaloff/deep-translator) package.
 

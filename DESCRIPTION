@@ -1,5 +1,5 @@
 Package: gtranslate
-Title: Translate between different languages
+Title: Translate Between Different Languages
 Version: 0.0.0.9000
 Authors@R: 
     person("Mohamed", "El-Desouky", , "mohamed_d180@hotmail.com", role = c("aut", "cre"),
