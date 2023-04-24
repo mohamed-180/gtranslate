@@ -1,10 +1,10 @@
 Package: gtranslate
 Title: Translate Between Different Languages
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person("Mohamed", "El-Desouky", , "mohamed_d180@hotmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0007-1611-2276"))
-Description: The goal of gtranslate is to translate between different languages without any google api authentication which is painfull and you must pay for, gtranslate is free and lightweight.
+Description: The goal of this package is to translate between different languages without any Google API authentication which is pain and you must pay for the key, This package is free and lightweight.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
