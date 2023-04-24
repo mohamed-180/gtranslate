@@ -15,3 +15,6 @@ Config/testthat/edition: 3
 Imports: 
     httr,
     rvest
+Depends: 
+    R (>= 2.10)
+LazyData: true

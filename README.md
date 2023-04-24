@@ -4,7 +4,7 @@
 
 <!-- badges: end -->
 
-The goal of **`gtranslate`** is to translate between different languages without any google api authentication which is painfull and you must pay for, `gtranslate` is free and lightweight.
+The goal of **`gtranslate`** is to translate between different languages without any google api authentication which is painful and you must pay for, **`gtranslate`** is free and lightweight.
 
 **`gtranslate`** is inspired by [`deep-translator`](https://github.com/nidhaloff/deep-translator) package.
 
@@ -52,10 +52,22 @@ You can also pass any list-like object
 library(gtranslate)
 library(stringr)
 
-fruit[1:5] |> translate(to = 'de') # de for German
+translate(fruit[1:5], to = 'de') # de for German
 
 #[1] "Apfel"    "Aprikose" "Avocado"  "Banane"   "Paprika"
 ```
+## Codes for supported languages
+
+You can use **`lang_codes`** list to get the codes of the available languages instead of abbreviations characters as follows 
+
+``` r
+library(gtranslate)
+
+translate("R is a beatiful language.", from = lang_codes$english, to = lang_codes$turkish)
+
+#[1] "R güzel bir dildir."
+```
+
 
 ## Limitations
 
