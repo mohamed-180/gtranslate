@@ -4,7 +4,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of gtranslate is to ...
+The goal of `gtranslate` is to translate between different languages without any google api authentication which is painfull and you must pay for, `gtranslate` is free and lightweight.
+
+`gtranslate` is inspired by [`deep-translator`](https://github.com/nidhaloff/deep-translator) package.
+
 
 ## Installation
 
@@ -17,10 +20,13 @@ devtools::install_github("mohamed-180/gtranslate")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to use the package:
 
 ``` r
 library(gtranslate)
-## basic example code
+
+translate("How are you?")
+
+[1] "كيف حالك؟"
 ```
 
