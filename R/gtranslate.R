@@ -5,8 +5,9 @@
 #' @param to (character) abbreviation to the output language code.
 #' @param trim_str (logical) indicating whether to trim the string if it is exceeds 5000 characters.
 #'
-#' @import rvest
-#' @import httr
+#' @importFrom rvest read_html html_text2 html_elements
+#' @importFrom httr GET content
+#'
 #' @return (character) vector of translated input text.
 #' @export
 #'

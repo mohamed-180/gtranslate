@@ -2,7 +2,7 @@
 % Please edit documentation in R/gtranslate.R
 \name{translate}
 \alias{translate}
-\title{Title Translate between different languages}
+\title{Translate between different languages}
 \usage{
 translate(text, from = "auto", to = "ar", trim_str = TRUE)
 }
@@ -19,9 +19,10 @@ translate(text, from = "auto", to = "ar", trim_str = TRUE)
 (character) vector of translated input text.
 }
 \description{
-Title Translate between different languages
+Translate between different languages
 }
 \examples{
+
 translate("﷽", from = "ar", to = "en")
 translate("How are you?", from = "auto", to = "ar")
 
