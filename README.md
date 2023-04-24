@@ -27,6 +27,6 @@ library(gtranslate)
 
 translate("How are you?", from = "auto", to = "ar")
 
-[1] "كيف حالك؟"
+#[1] "كيف حالك؟"
 ```
 
