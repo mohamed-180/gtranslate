@@ -58,7 +58,9 @@ You can use **`lang_codes`** list to get the codes of the available languages in
 ``` r
 library(gtranslate)
 
-translate("R is a beatiful language.", from = lang_codes$english, to = lang_codes$turkish)
+translate("R is a beatiful language.",
+          from = lang_codes$english,
+          to = lang_codes$turkish)
 
 #[1] "R güzel bir dildir."
 ```
