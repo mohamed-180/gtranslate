@@ -10,7 +10,13 @@ The goal of **`gtranslate`** is to translate between different languages without
 
 ## Installation
 
-You can install the development version of **`gtranslate`** from [GitHub](https://github.com/) with:
+**`gtranslate`** can be installed from CRAN with:
+
+``` r
+install.packages("gtranslate")
+```
+
+Or you can install the development version of **`gtranslate`** from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
