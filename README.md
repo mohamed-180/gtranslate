@@ -1,6 +1,9 @@
 # gtranslate
 
 <!-- badges: start -->
+ [![CRAN
+ status](https://www.r-pkg.org/badges/version/gtranslate)](https://CRAN.R-project.org/package=gtranslate)
+ [![](https://cranlogs.r-pkg.org/badges/gtranslate)](https://cran.r-project.org/package=gtranslate)
 
 <!-- badges: end -->
 
